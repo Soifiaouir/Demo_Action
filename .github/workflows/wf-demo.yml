@@ -1,0 +1,12 @@
+name: Mon PremierWorkflow
+on: workflow_dispatch
+jobs:
+  premierJob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mon premier Job
+        run: echo "Démarage du job"
+      - name: Mes premières instructions
+        run: ls /
+      - name: Fin du premier Job
+        run: echo "That's all Folks"
